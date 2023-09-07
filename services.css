@@ -1,10 +1,15 @@
 *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+*{
     margin:0 ;
     padding: 0;
     list-style: none;
 }
 body{
-    background-image:url(/assets/pet1.jpg) ;
+    background-image:url(/assets/backgro2.jfif);
     background-size:cover ;
 }
 .cl{
@@ -36,31 +41,35 @@ nav ul li a:hover{
     color: red;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-h1{
-    color: orangered;
-}
-h2{
-    color:gold;
-}
-.cl1{
-   margin-top: 14%;
-   margin-left: 33%;
-}
-p{
-    color: green;
-    font-size: 20px;
-
+.cls{
+    display: flex;
 }
 .cls1{
-    height: 55%;
-    width: 30%;
-    position: absolute;
-    right: 11%;
-    top:34%; 
+    display: flex;
 }
-.cls1 img{
-    border-radius: 30px;
+.cls2{
+    display: flex;
 }
-.cl1 img{
-   border-radius: 20px;
+.cls3{
+     display: flex;
+}
+img{
+    margin-left: 15%;
+}
+h1{
+    margin-left: 15%;
+    color:gold;
+}
+p{
+    margin-left: 15%;
+    margin-top: 50px;  
+    color:purple;
+    font-family:sans-serif ;
+    font-size: 20px;
+}
+button{
+    background-color: black;
+    color:white;
+    font-family: fantasy;
+    font-size: 15px;
 }

@@ -1,11 +1,8 @@
-*{
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style: none;
-}
-body{
-    background-image:url(/images/ph1.jpg) ;
-    background-size:cover ;
 }
 .cl{
     display: flex;
@@ -36,26 +33,35 @@ nav ul li a:hover{
     color: red;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-form input{
-    width:30%;
-    line-height: 30%;
+body{
+    background-image: url(assets/background.jfif);
+    background-size: cover;
 }
-form{
-    margin-left: 25%;
-}
-label{
+.cl1 h1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    color: white;
 }
-p{
-    color: aqua;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 15px;
-    margin-left: 20px;
+.cl1 p{
+    color:green;
+    font-size: 20px;
 }
-h1{
-    color: gold;
+h2{
+   color: purple;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-button{
-    background-color: aliceblue;
+span{
+   color: blue;
+   font-family: 'Times New Roman', Times, serif;
+   font-size:20px;
+   margin-right: 50px;
+}
+.cla{
+    display: flex;
+}
+.cl1{
+    margin-left: 100px;
+}
+.cla img{
+    border-radius: 100px;
 }
